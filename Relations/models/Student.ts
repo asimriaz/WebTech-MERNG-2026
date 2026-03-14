@@ -3,7 +3,11 @@ import type { InferSchemaType } from 'mongoose'
 
 export const studentSchema = new Schema({
 	regno: String,
-	name: String
+	name: String, 
+	// marks: [{
+	// 	type: Schema.Types.ObjectId, 
+	// 	ref: 'Mark' 
+	// }]
 })
 
 

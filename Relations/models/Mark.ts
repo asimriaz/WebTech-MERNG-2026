@@ -5,7 +5,11 @@ export const markSchema = new Schema({
 	mid: Number,
 	regno: String,
 	hid: Number,
-	marks: Number
+	marks: Number, 
+	// student: { 
+	// 	type: Schema.Types.ObjectId, 
+	// 	ref: 'Student' 
+	// }
 })
 
 
