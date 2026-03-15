@@ -8,3 +8,7 @@ mongoimport --jsonArray JSON\courses.json -d academic -c courses
 ```
 for %f in (JSON\recapsheet\*.json) do mongoimport --jsonArray %f -d recapsheet -c %~nf
 ```
+## Load all JSON files from a folder (Linux)
+```
+for f in JSON/recapsheet/*.json; do mongoimport --jsonArray --file "$f" -d recapsheet -c "$(basename "${f%.json}")"; done
+```
