@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid #808080;
+            border-collapse: collapse;
+        }
+
+        a:visited {
+            color: blue;
+
+        }
+    </style>
+    <script>
+        function getCourseId(courseId) {
+            fetch(`/api/courses/${courseId}`)
+                .then(res => res.json())
+                .then(course => {
+                    console.log(course)
+                    // document.querySelector('#update').innerHTML = `
+                    //     <pre>${JSON.stringify(course, null, 4)}</pre>
+                    // `;
+
+                    document.querySelector('#courseid').value = course.courseid;
+                    document.querySelector('#code').value = course.code;
+                    document.querySelector('#title').value = course.title;
+                    document.querySelector('#crhr').value = course.crhr;
+                    document.querySelector('#semester').value = course.semester;
+
+                    document.querySelector('#update').style.display = 'block';
+                    //alert('Course ID: ' + course.courseid + '\nTitle: ' + course.title);
+                });
+        }
+        function Save(e) {
+
+            // e.preventDefault();
+            const courseid = document.querySelector('#courseid').value;
+            const code = document.querySelector('#code').value;
+            const title = document.querySelector('#title').value;
+            const crhr = document.querySelector('#crhr').value;
+            const semester = document.querySelector('#semester').value;
+
+            fetch(`/api/courses/${courseid}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ courseid, code, title, crhr, semester })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                    alert('Course updated successfully!');
+                });
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <h1>Welcome to the Index Page</h1>
+
+    <div style="display: flex;">
+        <div style="margin-right: 20px;">
+            <h2>Courses</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @model.courses.forEach(function(course){
+                    <tr>
+                        <td>@course.code</td>
+                        <td>
+                            <a href="#" onclick="getCourseId(@course.courseid)">
+                                @course.title
+                            </a>
+                        </td>
+                    </tr>
+                    })
+                </tbody>
+            </table>
+
+        </div>
+
+        <div id="update" style="display: none;">
+            <form>
+                <input type="hidden" name="courseid" id="courseid">
+                <label for="code">Code:</label>
+                <input type="text" name="code" id="code"><br><br>
+                <label for="title">Title:</label>
+                <textarea name="title" id="title"></textarea><br><br>
+                <label for="crhr">Credit Hours:</label>
+                <input type="number" name="crhr" id="crhr"><br><br>
+                <label for="semester">Semester:</label>
+                <input type="number" name="semester" id="semester"><br><br>
+
+                <button type="submit" onclick="Save()">Save</button>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
