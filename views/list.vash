@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>Reg No</th>
+        <th>Name</th>
+    </tr>
+    @for(var student of model.students) {
+        <tr>
+            <td>@student.regno</td>
+            <td>@student.name</td>
+        </tr>
+    }
+</table>
