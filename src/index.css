@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border: 1px solid #b7b7b7;
+    padding: 4px;
+}
+
+tbody th {
+    text-align: right;
+}
+
+a:visited {
+    color: blue;
+}
