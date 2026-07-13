@@ -1,0 +1,202 @@
+[
+    {
+        "curid": 1,
+        "cid": 15,
+        "semno": 1
+    },
+    {
+        "curid": 2,
+        "cid": 16,
+        "semno": 1
+    },
+    {
+        "curid": 5,
+        "cid": 18,
+        "semno": 1
+    },
+    {
+        "curid": 3,
+        "cid": 17,
+        "semno": 1
+    },
+    {
+        "curid": 4,
+        "cid": 14,
+        "semno": 1
+    },
+    {
+        "curid": 6,
+        "cid": 5,
+        "semno": 2
+    },
+    {
+        "curid": 9,
+        "cid": 3,
+        "semno": 2
+    },
+    {
+        "curid": 10,
+        "cid": 2,
+        "semno": 2
+    },
+    {
+        "curid": 7,
+        "cid": 1,
+        "semno": 2
+    },
+    {
+        "curid": 8,
+        "cid": 25,
+        "semno": 2
+    },
+    {
+        "curid": 11,
+        "cid": 20,
+        "semno": 3
+    },
+    {
+        "curid": 12,
+        "cid": 27,
+        "semno": 3
+    },
+    {
+        "curid": 14,
+        "cid": 28,
+        "semno": 3
+    },
+    {
+        "curid": 15,
+        "cid": 29,
+        "semno": 3
+    },
+    {
+        "curid": 13,
+        "cid": 21,
+        "semno": 3
+    },
+    {
+        "curid": 16,
+        "cid": 19,
+        "semno": 4
+    },
+    {
+        "curid": 17,
+        "cid": 4,
+        "semno": 4
+    },
+    {
+        "curid": 20,
+        "cid": 36,
+        "semno": 4
+    },
+    {
+        "curid": 18,
+        "cid": 35,
+        "semno": 4
+    },
+    {
+        "curid": 19,
+        "cid": 34,
+        "semno": 4
+    },
+    {
+        "curid": 21,
+        "cid": 30,
+        "semno": 5
+    },
+    {
+        "curid": 23,
+        "cid": 6,
+        "semno": 5
+    },
+    {
+        "curid": 22,
+        "cid": 31,
+        "semno": 5
+    },
+    {
+        "curid": 25,
+        "cid": 40,
+        "semno": 5
+    },
+    {
+        "curid": 24,
+        "cid": 39,
+        "semno": 5
+    },
+    {
+        "curid": 26,
+        "cid": 7,
+        "semno": 6
+    },
+    {
+        "curid": 27,
+        "cid": 8,
+        "semno": 6
+    },
+    {
+        "curid": 28,
+        "cid": 9,
+        "semno": 6
+    },
+    {
+        "curid": 29,
+        "cid": 22,
+        "semno": 6
+    },
+    {
+        "curid": 30,
+        "cid": 37,
+        "semno": 6
+    },
+    {
+        "curid": 31,
+        "cid": 33,
+        "semno": 7
+    },
+    {
+        "curid": 32,
+        "cid": 23,
+        "semno": 7
+    },
+    {
+        "curid": 33,
+        "cid": 24,
+        "semno": 7
+    },
+    {
+        "curid": 34,
+        "cid": 12,
+        "semno": 7
+    },
+    {
+        "curid": 35,
+        "cid": 13,
+        "semno": 7
+    },
+    {
+        "curid": 36,
+        "cid": 38,
+        "semno": 8
+    },
+    {
+        "curid": 37,
+        "cid": 43,
+        "semno": 8
+    },
+    {
+        "curid": 38,
+        "cid": 44,
+        "semno": 8
+    },
+    {
+        "curid": 39,
+        "cid": 10,
+        "semno": 8
+    },
+    {
+        "curid": 40,
+        "cid": 11,
+        "semno": 8
+    }
+]

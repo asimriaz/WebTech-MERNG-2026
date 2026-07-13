@@ -1,0 +1,186 @@
+[
+    {
+        "cid": 5,
+        "title": "CS1108 Object Oriented Programming (2, 1)"
+    },
+    {
+        "cid": 9,
+        "title": "CS3612 Software Engineering-II (3, 0)"
+    },
+    {
+        "cid": 10,
+        "title": "CS4802 Research Report (3, 0)"
+    },
+    {
+        "cid": 11,
+        "title": "CS4804 Project-II (0, 3)"
+    },
+    {
+        "cid": 12,
+        "title": "CS4805 Professional Practices (3, 0)"
+    },
+    {
+        "cid": 13,
+        "title": "CS4828 Auditing Information Systems (3, 0)"
+    },
+    {
+        "cid": 14,
+        "title": "CS1209 Programming Fundamentals (3, 1)"
+    },
+    {
+        "cid": 15,
+        "title": "CS1102 Calculus and Analytical Geometry (3, 0)"
+    },
+    {
+        "cid": 16,
+        "title": "CS1111 English Composition and Comprehension (3, 0)"
+    },
+    {
+        "cid": 17,
+        "title": "CS1117 Introduction to Computer Science (3, 1)"
+    },
+    {
+        "cid": 18,
+        "title": "CS1206 Islamiat and Pakistan Studies Humanities (3, 0)"
+    },
+    {
+        "cid": 19,
+        "title": "CS1212 Statistics and Probability (3, 0)"
+    },
+    {
+        "cid": 20,
+        "title": "CS1205 Oral Communication and Presentation Skills (3, 0)"
+    },
+    {
+        "cid": 21,
+        "title": "CS2313 Data Structures and Algorithms (2, 1)"
+    },
+    {
+        "cid": 22,
+        "title": "CS3619 Numerical and Symbolic Computation (3, 0)"
+    },
+    {
+        "cid": 23,
+        "title": "CS4702 Artificial Intelligence (3, 0)"
+    },
+    {
+        "cid": 24,
+        "title": "CS4704 Project-I (0, 3)"
+    },
+    {
+        "cid": 25,
+        "title": "CS1215 Physics and Basic Electronics (3, 1)"
+    },
+    {
+        "cid": 1,
+        "title": "CS1211 Technical and Business Writing (3, 0)"
+    },
+    {
+        "cid": 3,
+        "title": "CS2414 Multivariate Calculus (3, 0)"
+    },
+    {
+        "cid": 2,
+        "title": "CS3505 Discrete Mathematical Structures (3, 0)"
+    },
+    {
+        "cid": 8,
+        "title": "CS3611 Analysis of Algorithms (3, 0)"
+    },
+    {
+        "cid": 26,
+        "title": "CS4511 IT Innovations (3, 0)"
+    },
+    {
+        "cid": 27,
+        "title": "CS2305 Linear Algebra and Differential Equations (3, 0)"
+    },
+    {
+        "cid": 28,
+        "title": "CS2317 Digital Logic Design (3, 1)"
+    },
+    {
+        "cid": 29,
+        "title": "CS2318 Operating Systems Concepts (3, 1)"
+    },
+    {
+        "cid": 30,
+        "title": "CS2314 Finite Automata Theory and Formal Languages (3, 0)"
+    },
+    {
+        "cid": 31,
+        "title": "CS2315 Web Engineering (2, 1)"
+    },
+    {
+        "cid": 32,
+        "title": "CS4517 Embedded Programming (3, 0)"
+    },
+    {
+        "cid": 33,
+        "title": "CS4615 Android Application Development (3, 0)"
+    },
+    {
+        "cid": 34,
+        "title": "CS2418 Computer Data Communications and Networks (3, 1)"
+    },
+    {
+        "cid": 35,
+        "title": "CS2417 Introduction to Software Development (3, 1)"
+    },
+    {
+        "cid": 36,
+        "title": "CS2421 Relational Database Systems (3, 1)"
+    },
+    {
+        "cid": 37,
+        "title": "CS3624 Compiler Construction (3, 0)"
+    },
+    {
+        "cid": 38,
+        "title": "CS4617 iOS Development (3, 0)"
+    },
+    {
+        "cid": 40,
+        "title": "CS3521 Computer Architecture (3, 1)"
+    },
+    {
+        "cid": 41,
+        "title": "CS4518 Online Presence (3, 0)"
+    },
+    {
+        "cid": 39,
+        "title": "CS3517 Software Engineering Concepts (3, 1)"
+    },
+    {
+        "cid": 42,
+        "title": "CS4723 Systems Administration (2, 1)"
+    },
+    {
+        "cid": 44,
+        "title": "CS4732 Software Quality Assurance (3, 0)"
+    },
+    {
+        "cid": 43,
+        "title": "CS4619 Data Warehouse Techniques (3, 0)"
+    },
+    {
+        "cid": 6,
+        "title": "CS2415 Human Computer Interaction (3, 0)"
+    },
+    {
+        "cid": 4,
+        "title": "CS2411 Computer Organization and Assembly Language (2, 1)"
+    },
+    {
+        "cid": 7,
+        "title": "CS3607 Advanced Web Technologies (2, 1)"
+    },
+    {
+        "cid": 45,
+        "title": "CS4756 Graphic Design and 3D Animation (3, 0)"
+    },
+    {
+        "cid": 46,
+        "title": "CS4832 Network Security and Cryptography (3, 0)"
+    }
+]
